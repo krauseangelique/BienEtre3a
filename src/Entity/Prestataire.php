@@ -14,10 +14,10 @@ use Symfony\UX\Turbo\Attribute\Broadcast;
 // Notion d'héritage
 class Prestataire extends User
 {
-    #[ORM\Id]
-    #[ORM\GeneratedValue]
-    #[ORM\Column]
-    private ?int $id = null;
+    // #[ORM\Id]
+    // #[ORM\GeneratedValue]
+    // #[ORM\Column]
+    // private ?int $id = null;
 
     #[ORM\Column(length: 255, nullable: true)]
     private ?string $nom = null;
@@ -49,8 +49,8 @@ class Prestataire extends User
     #[ORM\OneToMany(mappedBy: 'prestataire', targetEntity: Commentaire::class)]
     private Collection $commentaire;
 
-    #[ORM\ManyToMany(targetEntity: Internaute::class, inversedBy: 'prestataires')]
-    private Collection $internaute;
+    // #[ORM\ManyToMany(targetEntity: Internaute::class, inversedBy: 'prestataires')]
+    // private Collection $internaute;
 
     #[ORM\OneToOne(inversedBy: 'prestataire', cascade: ['persist', 'remove'])]
     private ?User $utilisateur = null;
@@ -66,14 +66,14 @@ class Prestataire extends User
         $this->photo = new ArrayCollection();
         $this->stage = new ArrayCollection();
         $this->commentaire = new ArrayCollection();
-        $this->internaute = new ArrayCollection();
+        // $this->internaute = new ArrayCollection();
         $this->internautesFavoris = new ArrayCollection();
     }
 
-    public function getId(): ?int
-    {
-        return $this->id;
-    }
+    // public function getId(): ?int
+    // {
+    //     return $this->id;
+    // }
 
     public function getNom(): ?string
     {
@@ -297,29 +297,29 @@ class Prestataire extends User
         return $this;
     }
 
-    /**
-     * @return Collection<int, Internaute>
-     */
-    public function getInternaute(): Collection
-    {
-        return $this->internaute;
-    }
+    // /**
+    //  * @return Collection<int, Internaute>
+    //  */
+    // public function getInternaute(): Collection
+    // {
+    //     return $this->internaute;
+    // }
 
-    public function addInternaute(Internaute $internaute): static
-    {
-        if (!$this->internaute->contains($internaute)) {
-            $this->internaute->add($internaute);
-        }
+    // public function addInternaute(Internaute $internaute): static
+    // {
+    //     if (!$this->internaute->contains($internaute)) {
+    //         $this->internaute->add($internaute);
+    //     }
 
-        return $this;
-    }
+    //     return $this;
+    // }
 
-    public function removeInternaute(Internaute $internaute): static
-    {
-        $this->internaute->removeElement($internaute);
+    // public function removeInternaute(Internaute $internaute): static
+    // {
+    //     $this->internaute->removeElement($internaute);
 
-        return $this;
-    }
+    //     return $this;
+    // }
 
     public function getUtilisateur(): ?User
     {

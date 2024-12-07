@@ -14,10 +14,10 @@ use Symfony\UX\Turbo\Attribute\Broadcast;
 // Notion d'Héritage
 class Internaute extends User
 {
-    #[ORM\Id]
-    #[ORM\GeneratedValue]
-    #[ORM\Column]
-    private ?int $id = null;
+    // #[ORM\Id]
+    // #[ORM\GeneratedValue]
+    // #[ORM\Column]
+    // private ?int $id = null;
 
     #[ORM\Column(length: 255, nullable: true)]
     private ?string $nom = null;
@@ -63,10 +63,10 @@ class Internaute extends User
         $this->internautesFavoris = new ArrayCollection();
     }
 
-    public function getId(): ?int
-    {
-        return $this->id;
-    }
+    // public function getId(): ?int
+    // {
+    //     return $this->id;
+    // }
 
     public function getNom(): ?string
     {
@@ -221,24 +221,24 @@ class Internaute extends User
         return $this->prestataires;
     }
 
-    public function addPrestataire(Prestataire $prestataire): static
-    {
-        if (!$this->prestataires->contains($prestataire)) {
-            $this->prestataires->add($prestataire);
-            $prestataire->addInternaute($this);
-        }
+    // public function addPrestataire(Prestataire $prestataire): static
+    // {
+    //     if (!$this->prestataires->contains($prestataire)) {
+    //         $this->prestataires->add($prestataire);
+    //         $prestataire->addInternaute($this);
+    //     }
 
-        return $this;
-    }
+    //     return $this;
+    // }
 
-    public function removePrestataire(Prestataire $prestataire): static
-    {
-        if ($this->prestataires->removeElement($prestataire)) {
-            $prestataire->removeInternaute($this);
-        }
+    // public function removePrestataire(Prestataire $prestataire): static
+    // {
+    //     if ($this->prestataires->removeElement($prestataire)) {
+    //         $prestataire->removeInternaute($this);
+    //     }
 
-        return $this;
-    }
+    //     return $this;
+    // }
 
     /**
      * @return Collection<int, Prestataire>
