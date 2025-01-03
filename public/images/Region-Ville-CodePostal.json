@@ -1,0 +1,231 @@
+[
+{"type":"header","version":"5.2.1","comment":"Export to JSON plugin for PHPMyAdmin"},
+{"type":"database","name":"annuairebienetre"},
+{"type":"table","name":"abus","database":"annuairebienetre","data":
+[
+
+]
+}
+,{"type":"table","name":"bloc","database":"annuairebienetre","data":
+[
+
+]
+}
+,{"type":"table","name":"categorie_services","database":"annuairebienetre","data":
+[
+{"id":"1","nom":"barbier","description":"description barbier","en_avant":null,"valide":null,"image_id":null},
+{"id":"2","nom":"coiffeur","description":"description coiffeur","en_avant":null,"valide":null,"image_id":null},
+{"id":"3","nom":"esthéticienne","description":"description du métier d'esthéticienne","en_avant":null,"valide":null,"image_id":null},
+{"id":"4","nom":"pédicure","description":"description du métier de pédicure","en_avant":null,"valide":null,"image_id":null},
+{"id":"5","nom":"centre de spa et balnéothérapie","description":"description de la balnéothérapie","en_avant":null,"valide":null,"image_id":null},
+{"id":"6","nom":"massage","description":"description de la profession massage","en_avant":null,"valide":null,"image_id":null},
+{"id":"7","nom":"médecines alternatives","description":"description des médecines alternatives","en_avant":null,"valide":null,"image_id":null}
+]
+}
+,{"type":"table","name":"code_postal","database":"annuairebienetre","data":
+[
+
+]
+}
+,{"type":"table","name":"commentaire","database":"annuairebienetre","data":
+[
+
+]
+}
+,{"type":"table","name":"commune","database":"annuairebienetre","data":
+[
+
+]
+}
+,{"type":"table","name":"doctrine_migration_versions","database":"annuairebienetre","data":
+[
+{"version":"DoctrineMigrations\\Version20231217162034","executed_at":"2023-12-17 16:24:24","execution_time":"5090"},
+{"version":"DoctrineMigrations\\Version20231217164354","executed_at":"2023-12-17 16:49:01","execution_time":"2648"},
+{"version":"DoctrineMigrations\\Version20231217170251","executed_at":"2023-12-17 17:05:13","execution_time":"2723"},
+{"version":"DoctrineMigrations\\Version20231217173703","executed_at":"2023-12-17 17:39:07","execution_time":"6518"},
+{"version":"DoctrineMigrations\\Version20231217182858","executed_at":"2023-12-17 18:30:14","execution_time":"11002"},
+{"version":"DoctrineMigrations\\Version20231217185842","executed_at":"2023-12-17 19:00:29","execution_time":"283"},
+{"version":"DoctrineMigrations\\Version20231218115728","executed_at":"2023-12-18 11:59:53","execution_time":"19688"},
+{"version":"DoctrineMigrations\\Version20231218155132","executed_at":"2023-12-18 15:55:21","execution_time":"6227"},
+{"version":"DoctrineMigrations\\Version20231221150457","executed_at":"2023-12-21 15:07:06","execution_time":"4308"},
+{"version":"DoctrineMigrations\\Version20231221173511","executed_at":"2023-12-21 17:38:15","execution_time":"709"},
+{"version":"DoctrineMigrations\\Version20231221174939","executed_at":"2023-12-21 17:50:35","execution_time":"3419"},
+{"version":"DoctrineMigrations\\Version20231221175822","executed_at":"2023-12-21 18:00:20","execution_time":"2188"},
+{"version":"DoctrineMigrations\\Version20231221182153","executed_at":"2023-12-21 18:23:08","execution_time":"3496"},
+{"version":"DoctrineMigrations\\Version20231224135323","executed_at":"2023-12-24 13:55:11","execution_time":"4280"},
+{"version":"DoctrineMigrations\\Version20240118172311","executed_at":"2024-01-18 17:27:19","execution_time":"380"},
+{"version":"DoctrineMigrations\\Version20240121200826","executed_at":"2024-01-21 20:09:56","execution_time":"1276"}
+]
+}
+,{"type":"table","name":"image","database":"annuairebienetre","data":
+[
+
+]
+}
+,{"type":"table","name":"internaute","database":"annuairebienetre","data":
+[
+
+]
+}
+,{"type":"table","name":"internaute_prestataire","database":"annuairebienetre","data":
+[
+
+]
+}
+,{"type":"table","name":"messenger_messages","database":"annuairebienetre","data":
+[
+
+]
+}
+,{"type":"table","name":"newsletter","database":"annuairebienetre","data":
+[
+
+]
+}
+,{"type":"table","name":"position","database":"annuairebienetre","data":
+[
+
+]
+}
+,{"type":"table","name":"prestataire","database":"annuairebienetre","data":
+[
+{"id":"1","nom":null,"site_internet":null,"num_tel":null,"num_tva":null},
+{"id":"3","nom":null,"site_internet":null,"num_tel":null,"num_tva":null},
+{"id":"6","nom":null,"site_internet":null,"num_tel":null,"num_tva":null},
+{"id":"8","nom":null,"site_internet":null,"num_tel":null,"num_tva":null},
+{"id":"9","nom":null,"site_internet":null,"num_tel":null,"num_tva":null},
+{"id":"12","nom":null,"site_internet":null,"num_tel":null,"num_tva":null},
+{"id":"15","nom":null,"site_internet":null,"num_tel":null,"num_tva":null},
+{"id":"16","nom":null,"site_internet":null,"num_tel":null,"num_tva":null},
+{"id":"17","nom":null,"site_internet":null,"num_tel":null,"num_tva":null},
+{"id":"18","nom":null,"site_internet":null,"num_tel":null,"num_tva":null},
+{"id":"20","nom":null,"site_internet":null,"num_tel":null,"num_tva":null},
+{"id":"21","nom":null,"site_internet":null,"num_tel":null,"num_tva":null},
+{"id":"22","nom":null,"site_internet":null,"num_tel":null,"num_tva":null},
+{"id":"23","nom":null,"site_internet":null,"num_tel":null,"num_tva":null},
+{"id":"24","nom":null,"site_internet":null,"num_tel":null,"num_tva":null},
+{"id":"26","nom":null,"site_internet":null,"num_tel":null,"num_tva":null},
+{"id":"27","nom":"27","site_internet":"http:\/\/monsite.com","num_tel":"0472650511","num_tva":"203.203.203"},
+{"id":"28","nom":"levingthuit","site_internet":"http:\/\/monsite28.com","num_tel":"0472650511","num_tva":"203.203.203"},
+{"id":"29","nom":"Robert","site_internet":"http:\/\/monsite.com","num_tel":"0472650511","num_tva":"203.203.203"},
+{"id":"30","nom":"Angelique KRAUSE","site_internet":"http:\/\/monsite.com","num_tel":"0472650511","num_tva":"203.203.203"},
+{"id":"34","nom":"le liegeois","site_internet":"http:\/\/leliegeois.com","num_tel":"042562235","num_tva":"666.222.333"},
+{"id":"35","nom":"nouveau prestataire 40","site_internet":"http:\/\/monsite40.com","num_tel":"0472650511","num_tva":"203.203.203"},
+{"id":"36","nom":"noveau prestataire 50","site_internet":"http:\/\/monsite50.com","num_tel":"0472650511","num_tva":"203.203.203"},
+{"id":"37","nom":"prestataire 38","site_internet":"http:\/\/monsite38.com","num_tel":"0472650511","num_tva":"203.203.203"},
+{"id":"38","nom":"prestataire 38bon","site_internet":"http:\/\/monsite38bon.be","num_tel":"0472650511","num_tva":"203.203.203"},
+{"id":"39","nom":"prestataire 39","site_internet":"http:\/\/monsite39.com","num_tel":"0472650511","num_tva":"203.203.203"},
+{"id":"40","nom":"prestataire 40bis","site_internet":"http:\/\/monsite40bis.com","num_tel":"0472650511","num_tva":"203.203.203"},
+{"id":"41","nom":"le mien","site_internet":"http:\/\/monsite.com","num_tel":"0472650511","num_tva":"203.203.203"},
+{"id":"42","nom":"mon 42","site_internet":"http:\/\/monsite42.com","num_tel":"0472650511","num_tva":"203.203.203"},
+{"id":"43","nom":null,"site_internet":null,"num_tel":null,"num_tva":null},
+{"id":"44","nom":null,"site_internet":null,"num_tel":null,"num_tva":null},
+{"id":"45","nom":null,"site_internet":null,"num_tel":null,"num_tva":null},
+{"id":"47","nom":null,"site_internet":null,"num_tel":null,"num_tva":null},
+{"id":"48","nom":null,"site_internet":null,"num_tel":null,"num_tva":null},
+{"id":"49","nom":null,"site_internet":null,"num_tel":null,"num_tva":null},
+{"id":"50","nom":null,"site_internet":null,"num_tel":null,"num_tva":null},
+{"id":"51","nom":null,"site_internet":null,"num_tel":null,"num_tva":null},
+{"id":"52","nom":null,"site_internet":null,"num_tel":null,"num_tva":null},
+{"id":"53","nom":null,"site_internet":null,"num_tel":null,"num_tva":null},
+{"id":"54","nom":null,"site_internet":null,"num_tel":null,"num_tva":null},
+{"id":"55","nom":null,"site_internet":null,"num_tel":null,"num_tva":null},
+{"id":"56","nom":"Prestataire 56","site_internet":"http:\/\/monsite56.com","num_tel":"0472650511","num_tva":"203.203.203"},
+{"id":"57","nom":null,"site_internet":null,"num_tel":null,"num_tva":null},
+{"id":"58","nom":"Prestatire 58","site_internet":"http:\/\/monsite58.com","num_tel":"0472650511","num_tva":"203.203.203"},
+{"id":"59","nom":null,"site_internet":null,"num_tel":null,"num_tva":null},
+{"id":"60","nom":null,"site_internet":null,"num_tel":null,"num_tva":null},
+{"id":"61","nom":"Angelique KRAUSE","site_internet":"http:\/\/monsite62.be","num_tel":"0472650511","num_tva":"203.203.203"},
+{"id":"62","nom":"Prestataireuu","site_internet":"http:\/\/monsite.com","num_tel":"0472650511","num_tva":"203.203.203"},
+{"id":"63","nom":null,"site_internet":null,"num_tel":null,"num_tva":null}
+]
+}
+,{"type":"table","name":"prestataire_categorie_services","database":"annuairebienetre","data":
+[
+{"prestataire_id":"35","categorie_services_id":"2"},
+{"prestataire_id":"36","categorie_services_id":"2"},
+{"prestataire_id":"37","categorie_services_id":"2"},
+{"prestataire_id":"38","categorie_services_id":"3"},
+{"prestataire_id":"39","categorie_services_id":"4"},
+{"prestataire_id":"40","categorie_services_id":"3"},
+{"prestataire_id":"40","categorie_services_id":"6"},
+{"prestataire_id":"41","categorie_services_id":"1"},
+{"prestataire_id":"41","categorie_services_id":"2"},
+{"prestataire_id":"42","categorie_services_id":"1"},
+{"prestataire_id":"42","categorie_services_id":"2"},
+{"prestataire_id":"56","categorie_services_id":"3"},
+{"prestataire_id":"58","categorie_services_id":"6"},
+{"prestataire_id":"61","categorie_services_id":"4"},
+{"prestataire_id":"62","categorie_services_id":"4"},
+{"prestataire_id":"62","categorie_services_id":"6"}
+]
+}
+,{"type":"table","name":"promotion","database":"annuairebienetre","data":
+[
+
+]
+}
+,{"type":"table","name":"province","database":"annuairebienetre","data":
+[
+
+]
+}
+,{"type":"table","name":"stage","database":"annuairebienetre","data":
+[
+
+]
+}
+,{"type":"table","name":"user","database":"annuairebienetre","data":
+[
+{"id":"1","adresse_cp_id":null,"adresse_province_id":null,"commune_id":null,"email":"prestataire2@test.com","roles":"[\"ROLE_PRESTATAIRE\"]","password":null,"adresse_num":null,"adresse_rue":null,"inscription":null,"type_utilisateur":"prestataire","nb_essais_infructueux":null,"banni":null,"inscript_confirmee":"1","discr":"prestataire","is_verified":"1"},
+{"id":"3","adresse_cp_id":null,"adresse_province_id":null,"commune_id":null,"email":"krause_angelique@hotmail.com","roles":"[\"ROLE_PRESTATAIRE\"]","password":null,"adresse_num":null,"adresse_rue":null,"inscription":null,"type_utilisateur":"prestataire","nb_essais_infructueux":null,"banni":null,"inscript_confirmee":null,"discr":"prestataire","is_verified":"1"},
+{"id":"6","adresse_cp_id":null,"adresse_province_id":null,"commune_id":null,"email":"prestataire4@test.com","roles":"[\"ROLE_PRESTATAIRE\"]","password":null,"adresse_num":null,"adresse_rue":null,"inscription":null,"type_utilisateur":"prestataire","nb_essais_infructueux":null,"banni":null,"inscript_confirmee":null,"discr":"prestataire","is_verified":"1"},
+{"id":"8","adresse_cp_id":null,"adresse_province_id":null,"commune_id":null,"email":"prestataire6@test.com","roles":"[\"ROLE_PRESTATAIRE\"]","password":null,"adresse_num":null,"adresse_rue":null,"inscription":null,"type_utilisateur":"prestataire","nb_essais_infructueux":null,"banni":null,"inscript_confirmee":null,"discr":"prestataire","is_verified":"1"},
+{"id":"9","adresse_cp_id":null,"adresse_province_id":null,"commune_id":null,"email":"prestataire5@test.com","roles":"[\"ROLE_PRESTATAIRE\"]","password":null,"adresse_num":null,"adresse_rue":null,"inscription":null,"type_utilisateur":"prestataire","nb_essais_infructueux":null,"banni":null,"inscript_confirmee":null,"discr":"prestataire","is_verified":"1"},
+{"id":"12","adresse_cp_id":null,"adresse_province_id":null,"commune_id":null,"email":"prestataire7@test.com","roles":"[\"ROLE_PRESTATAIRE\"]","password":null,"adresse_num":null,"adresse_rue":null,"inscription":null,"type_utilisateur":"prestataire","nb_essais_infructueux":null,"banni":null,"inscript_confirmee":null,"discr":"prestataire","is_verified":"1"},
+{"id":"15","adresse_cp_id":null,"adresse_province_id":null,"commune_id":null,"email":"prestataire8@test.com","roles":"[\"ROLE_PRESTATAIRE\"]","password":null,"adresse_num":null,"adresse_rue":null,"inscription":null,"type_utilisateur":"prestataire","nb_essais_infructueux":null,"banni":null,"inscript_confirmee":null,"discr":"prestataire","is_verified":"1"},
+{"id":"16","adresse_cp_id":null,"adresse_province_id":null,"commune_id":null,"email":"prestataire9@test.com","roles":"[\"ROLE_PRESTATAIRE\"]","password":null,"adresse_num":null,"adresse_rue":null,"inscription":null,"type_utilisateur":"prestataire","nb_essais_infructueux":null,"banni":null,"inscript_confirmee":null,"discr":"prestataire","is_verified":"1"},
+{"id":"17","adresse_cp_id":null,"adresse_province_id":null,"commune_id":null,"email":"prestataire10@test.com","roles":"[\"ROLE_PRESTATAIRE\"]","password":null,"adresse_num":null,"adresse_rue":null,"inscription":null,"type_utilisateur":"prestataire","nb_essais_infructueux":null,"banni":null,"inscript_confirmee":null,"discr":"prestataire","is_verified":"1"},
+{"id":"18","adresse_cp_id":null,"adresse_province_id":null,"commune_id":null,"email":"prestataire11@test.com","roles":"[\"ROLE_PRESTATAIRE\"]","password":null,"adresse_num":null,"adresse_rue":null,"inscription":null,"type_utilisateur":"prestataire","nb_essais_infructueux":null,"banni":null,"inscript_confirmee":null,"discr":"prestataire","is_verified":"1"},
+{"id":"20","adresse_cp_id":null,"adresse_province_id":null,"commune_id":null,"email":"prestataire12@test.com","roles":"[\"ROLE_PRESTATAIRE\"]","password":null,"adresse_num":null,"adresse_rue":null,"inscription":null,"type_utilisateur":"prestataire","nb_essais_infructueux":null,"banni":null,"inscript_confirmee":null,"discr":"prestataire","is_verified":"1"},
+{"id":"21","adresse_cp_id":null,"adresse_province_id":null,"commune_id":null,"email":"prestataire13@test.com","roles":"[\"ROLE_PRESTATAIRE\"]","password":null,"adresse_num":null,"adresse_rue":null,"inscription":null,"type_utilisateur":"prestataire","nb_essais_infructueux":null,"banni":null,"inscript_confirmee":null,"discr":"prestataire","is_verified":"1"},
+{"id":"22","adresse_cp_id":null,"adresse_province_id":null,"commune_id":null,"email":"prestataire14@test.com","roles":"[\"ROLE_PRESTATAIRE\"]","password":null,"adresse_num":null,"adresse_rue":null,"inscription":null,"type_utilisateur":"prestataire","nb_essais_infructueux":null,"banni":null,"inscript_confirmee":null,"discr":"prestataire","is_verified":"1"},
+{"id":"23","adresse_cp_id":null,"adresse_province_id":null,"commune_id":null,"email":"prestataire15@test.com","roles":"[\"ROLE_PRESTATAIRE\"]","password":null,"adresse_num":null,"adresse_rue":null,"inscription":null,"type_utilisateur":"prestataire","nb_essais_infructueux":null,"banni":null,"inscript_confirmee":null,"discr":"prestataire","is_verified":"1"},
+{"id":"24","adresse_cp_id":null,"adresse_province_id":null,"commune_id":null,"email":"prestataire16@test.com","roles":"[\"ROLE_PRESTATAIRE\"]","password":null,"adresse_num":null,"adresse_rue":null,"inscription":null,"type_utilisateur":"prestataire","nb_essais_infructueux":null,"banni":null,"inscript_confirmee":null,"discr":"prestataire","is_verified":"1"},
+{"id":"26","adresse_cp_id":null,"adresse_province_id":null,"commune_id":null,"email":"prestataire18@test.com","roles":"[\"ROLE_PRESTATAIRE\"]","password":null,"adresse_num":null,"adresse_rue":null,"inscription":null,"type_utilisateur":"prestataire","nb_essais_infructueux":null,"banni":null,"inscript_confirmee":null,"discr":"prestataire","is_verified":"1"},
+{"id":"27","adresse_cp_id":null,"adresse_province_id":null,"commune_id":null,"email":"prestataire27@test.com","roles":"[\"ROLE_PRESTATAIRE\"]","password":null,"adresse_num":"03","adresse_rue":"RUE PIRON","inscription":null,"type_utilisateur":"prestataire","nb_essais_infructueux":null,"banni":null,"inscript_confirmee":null,"discr":"prestataire","is_verified":"1"},
+{"id":"28","adresse_cp_id":null,"adresse_province_id":null,"commune_id":null,"email":"prestataire28@test.com","roles":"[\"ROLE_PRESTATAIRE\"]","password":null,"adresse_num":"03","adresse_rue":"RUE PIRON","inscription":null,"type_utilisateur":"prestataire","nb_essais_infructueux":null,"banni":null,"inscript_confirmee":null,"discr":"prestataire","is_verified":"1"},
+{"id":"29","adresse_cp_id":null,"adresse_province_id":null,"commune_id":null,"email":"prestataire20@test.com","roles":"[\"ROLE_PRESTATAIRE\"]","password":null,"adresse_num":null,"adresse_rue":null,"inscription":null,"type_utilisateur":"prestataire","nb_essais_infructueux":null,"banni":null,"inscript_confirmee":null,"discr":"prestataire","is_verified":"1"},
+{"id":"30","adresse_cp_id":null,"adresse_province_id":null,"commune_id":null,"email":"prestataire22@test.com","roles":"[\"ROLE_PRESTATAIRE\"]","password":null,"adresse_num":"03","adresse_rue":"RUE PIRON","inscription":null,"type_utilisateur":"prestataire","nb_essais_infructueux":null,"banni":null,"inscript_confirmee":null,"discr":"prestataire","is_verified":"1"},
+{"id":"34","adresse_cp_id":null,"adresse_province_id":null,"commune_id":null,"email":"prestataire31@test.com","roles":"[\"ROLE_PRESTATAIRE\"]","password":null,"adresse_num":"37","adresse_rue":"rue du Village","inscription":null,"type_utilisateur":"prestataire","nb_essais_infructueux":null,"banni":null,"inscript_confirmee":null,"discr":"prestataire","is_verified":"1"},
+{"id":"35","adresse_cp_id":null,"adresse_province_id":null,"commune_id":null,"email":"prestataire40@test.com","roles":"[\"ROLE_PRESTATAIRE\"]","password":null,"adresse_num":"23","adresse_rue":"gare","inscription":"2024-02-22 15:02:05","type_utilisateur":"prestataire","nb_essais_infructueux":null,"banni":null,"inscript_confirmee":null,"discr":"prestataire","is_verified":"1"},
+{"id":"36","adresse_cp_id":null,"adresse_province_id":null,"commune_id":null,"email":"prestataire50@test.com","roles":"[\"ROLE_PRESTATAIRE\"]","password":null,"adresse_num":"21","adresse_rue":"de la Grange","inscription":"2024-02-22 17:08:49","type_utilisateur":"prestataire","nb_essais_infructueux":null,"banni":null,"inscript_confirmee":null,"discr":"prestataire","is_verified":"1"},
+{"id":"37","adresse_cp_id":null,"adresse_province_id":null,"commune_id":null,"email":"prestataire38@test.com","roles":"[\"ROLE_PRESTATAIRE\"]","password":null,"adresse_num":"03","adresse_rue":"RUE PIRON","inscription":"2024-02-28 22:25:15","type_utilisateur":"prestataire","nb_essais_infructueux":null,"banni":null,"inscript_confirmee":null,"discr":"prestataire","is_verified":"1"},
+{"id":"38","adresse_cp_id":null,"adresse_province_id":null,"commune_id":null,"email":"prestataire38bon@test.com","roles":"[\"ROLE_PRESTATAIRE\"]","password":null,"adresse_num":"03","adresse_rue":"RUE PIRON","inscription":"2024-02-28 22:29:22","type_utilisateur":"prestataire","nb_essais_infructueux":null,"banni":null,"inscript_confirmee":null,"discr":"prestataire","is_verified":"1"},
+{"id":"39","adresse_cp_id":null,"adresse_province_id":null,"commune_id":null,"email":"prestataire39@test.com","roles":"[\"ROLE_PRESTATAIRE\"]","password":null,"adresse_num":"03","adresse_rue":"RUE PIRON","inscription":"2024-02-28 22:32:17","type_utilisateur":"prestataire","nb_essais_infructueux":null,"banni":null,"inscript_confirmee":null,"discr":"prestataire","is_verified":"1"},
+{"id":"40","adresse_cp_id":null,"adresse_province_id":null,"commune_id":null,"email":"prestataire40bis@test.com","roles":"[\"ROLE_PRESTATAIRE\"]","password":null,"adresse_num":"03","adresse_rue":"RUE PIRON","inscription":"2024-02-28 22:34:59","type_utilisateur":"prestataire","nb_essais_infructueux":null,"banni":null,"inscript_confirmee":null,"discr":"prestataire","is_verified":"1"},
+{"id":"41","adresse_cp_id":null,"adresse_province_id":null,"commune_id":null,"email":"prestataire41@test.com","roles":"[\"ROLE_PRESTATAIRE\"]","password":null,"adresse_num":"03","adresse_rue":"RUE PIRON","inscription":"2024-02-28 22:49:01","type_utilisateur":"prestataire","nb_essais_infructueux":null,"banni":null,"inscript_confirmee":null,"discr":"prestataire","is_verified":"1"},
+{"id":"42","adresse_cp_id":null,"adresse_province_id":null,"commune_id":null,"email":"prestataire42@test.com","roles":"[\"ROLE_PRESTATAIRE\"]","password":null,"adresse_num":"03","adresse_rue":"RUE PIRON","inscription":"2024-02-28 23:11:44","type_utilisateur":"prestataire","nb_essais_infructueux":null,"banni":null,"inscript_confirmee":null,"discr":"prestataire","is_verified":"1"},
+{"id":"43","adresse_cp_id":null,"adresse_province_id":null,"commune_id":null,"email":"prestataire43@test.com","roles":"[\"ROLE_PRESTATAIRE\"]","password":null,"adresse_num":null,"adresse_rue":null,"inscription":"2024-03-04 10:30:37","type_utilisateur":"prestataire","nb_essais_infructueux":null,"banni":null,"inscript_confirmee":null,"discr":"prestataire","is_verified":"1"},
+{"id":"44","adresse_cp_id":null,"adresse_province_id":null,"commune_id":null,"email":"prestataire44@test.com","roles":"[\"ROLE_PRESTATAIRE\"]","password":null,"adresse_num":null,"adresse_rue":null,"inscription":"2024-03-04 10:36:52","type_utilisateur":"prestataire","nb_essais_infructueux":null,"banni":null,"inscript_confirmee":null,"discr":"prestataire","is_verified":"1"},
+{"id":"45","adresse_cp_id":null,"adresse_province_id":null,"commune_id":null,"email":"prestataire45@test.com","roles":"[\"ROLE_PRESTATAIRE\"]","password":null,"adresse_num":null,"adresse_rue":null,"inscription":"2024-03-04 10:43:47","type_utilisateur":"prestataire","nb_essais_infructueux":null,"banni":null,"inscript_confirmee":null,"discr":"prestataire","is_verified":"1"},
+{"id":"47","adresse_cp_id":null,"adresse_province_id":null,"commune_id":null,"email":"prestataire46@test.com","roles":"[\"ROLE_PRESTATAIRE\"]","password":null,"adresse_num":null,"adresse_rue":null,"inscription":"2024-03-04 10:52:56","type_utilisateur":"prestataire","nb_essais_infructueux":null,"banni":null,"inscript_confirmee":null,"discr":"prestataire","is_verified":"1"},
+{"id":"48","adresse_cp_id":null,"adresse_province_id":null,"commune_id":null,"email":"prestataire48@test.com","roles":"[\"ROLE_PRESTATAIRE\"]","password":null,"adresse_num":null,"adresse_rue":null,"inscription":"2024-03-04 11:00:12","type_utilisateur":"prestataire","nb_essais_infructueux":null,"banni":null,"inscript_confirmee":"1","discr":"prestataire","is_verified":"1"},
+{"id":"49","adresse_cp_id":null,"adresse_province_id":null,"commune_id":null,"email":"prestataire49@test.com","roles":"[\"ROLE_PRESTATAIRE\"]","password":null,"adresse_num":null,"adresse_rue":null,"inscription":"2024-03-04 11:08:14","type_utilisateur":"prestataire","nb_essais_infructueux":null,"banni":null,"inscript_confirmee":"1","discr":"prestataire","is_verified":"1"},
+{"id":"50","adresse_cp_id":null,"adresse_province_id":null,"commune_id":null,"email":"prestataire51@test.com","roles":"[\"ROLE_PRESTATAIRE\"]","password":null,"adresse_num":null,"adresse_rue":null,"inscription":"2024-03-04 11:41:14","type_utilisateur":"prestataire","nb_essais_infructueux":null,"banni":null,"inscript_confirmee":"1","discr":"prestataire","is_verified":"1"},
+{"id":"51","adresse_cp_id":null,"adresse_province_id":null,"commune_id":null,"email":"prestatair51@test.com","roles":"[\"ROLE_PRESTATAIRE\"]","password":null,"adresse_num":null,"adresse_rue":null,"inscription":"2024-03-04 11:45:02","type_utilisateur":"prestataire","nb_essais_infructueux":null,"banni":null,"inscript_confirmee":"1","discr":"prestataire","is_verified":"1"},
+{"id":"52","adresse_cp_id":null,"adresse_province_id":null,"commune_id":null,"email":"prestatair52@test.com","roles":"[\"ROLE_PRESTATAIRE\"]","password":null,"adresse_num":null,"adresse_rue":null,"inscription":"2024-03-04 11:49:20","type_utilisateur":"prestataire","nb_essais_infructueux":null,"banni":null,"inscript_confirmee":"1","discr":"prestataire","is_verified":"1"},
+{"id":"53","adresse_cp_id":null,"adresse_province_id":null,"commune_id":null,"email":"prestataire53@test.com","roles":"[\"ROLE_PRESTATAIRE\"]","password":null,"adresse_num":null,"adresse_rue":null,"inscription":"2024-03-04 11:59:30","type_utilisateur":"prestataire","nb_essais_infructueux":null,"banni":null,"inscript_confirmee":"1","discr":"prestataire","is_verified":"1"},
+{"id":"54","adresse_cp_id":null,"adresse_province_id":null,"commune_id":null,"email":"prestataire54@test.com","roles":"[\"ROLE_PRESTATAIRE\"]","password":null,"adresse_num":null,"adresse_rue":null,"inscription":"2024-03-04 18:38:25","type_utilisateur":"prestataire","nb_essais_infructueux":null,"banni":null,"inscript_confirmee":"1","discr":"prestataire","is_verified":"1"},
+{"id":"55","adresse_cp_id":null,"adresse_province_id":null,"commune_id":null,"email":"prestatair55@test.com","roles":"[\"ROLE_PRESTATAIRE\"]","password":null,"adresse_num":null,"adresse_rue":null,"inscription":"2024-03-04 18:42:13","type_utilisateur":"prestataire","nb_essais_infructueux":null,"banni":null,"inscript_confirmee":"1","discr":"prestataire","is_verified":"1"},
+{"id":"56","adresse_cp_id":null,"adresse_province_id":null,"commune_id":null,"email":"prestataire56@test.com","roles":"[\"ROLE_PRESTATAIRE\"]","password":"$2y$13$CaXKKFcJrO9LpKi3gs8UI.KGAHk6erj0LMVmzjihTbpMKJwI2C8de","adresse_num":"03","adresse_rue":"RUE PIRON","inscription":"2024-03-04 18:46:18","type_utilisateur":"prestataire","nb_essais_infructueux":null,"banni":null,"inscript_confirmee":"1","discr":"prestataire","is_verified":"1"},
+{"id":"57","adresse_cp_id":null,"adresse_province_id":null,"commune_id":null,"email":"prestataire57@test.com","roles":"[\"ROLE_PRESTATAIRE\"]","password":null,"adresse_num":null,"adresse_rue":null,"inscription":"2024-03-04 18:56:21","type_utilisateur":"prestataire","nb_essais_infructueux":null,"banni":null,"inscript_confirmee":null,"discr":"prestataire","is_verified":"1"},
+{"id":"58","adresse_cp_id":null,"adresse_province_id":null,"commune_id":null,"email":"prestataire58@test.com","roles":"[\"ROLE_PRESTATAIRE\"]","password":"$2y$13$gWJIX6FPDri9FwtPZRF63efD93.WoK.tjaPO\/JNGTmCXwbl9xQtY2","adresse_num":"03","adresse_rue":"RUE PIRON","inscription":"2024-03-04 19:03:52","type_utilisateur":"prestataire","nb_essais_infructueux":null,"banni":null,"inscript_confirmee":"1","discr":"prestataire","is_verified":"1"},
+{"id":"59","adresse_cp_id":null,"adresse_province_id":null,"commune_id":null,"email":"prestatai52@test.com","roles":"[\"ROLE_PRESTATAIRE\"]","password":null,"adresse_num":null,"adresse_rue":null,"inscription":"2024-03-06 15:45:09","type_utilisateur":"prestataire","nb_essais_infructueux":null,"banni":null,"inscript_confirmee":null,"discr":"prestataire","is_verified":"1"},
+{"id":"60","adresse_cp_id":null,"adresse_province_id":null,"commune_id":null,"email":"prestataire61@test.com","roles":"[\"ROLE_PRESTATAIRE\"]","password":null,"adresse_num":null,"adresse_rue":null,"inscription":"2024-03-06 18:53:55","type_utilisateur":"prestataire","nb_essais_infructueux":null,"banni":null,"inscript_confirmee":null,"discr":"prestataire","is_verified":"1"},
+{"id":"61","adresse_cp_id":null,"adresse_province_id":null,"commune_id":null,"email":"prestataire65@test.com","roles":"[\"ROLE_PRESTATAIRE\"]","password":"$2y$13$aqX22Keog1lFTdqn5QHhEuMKc9L1NHWeFzhODVc8gQfv02axA10tG","adresse_num":"03","adresse_rue":"RUE PIRON","inscription":"2024-03-11 20:03:12","type_utilisateur":"prestataire","nb_essais_infructueux":null,"banni":null,"inscript_confirmee":"1","discr":"prestataire","is_verified":"1"},
+{"id":"62","adresse_cp_id":null,"adresse_province_id":null,"commune_id":null,"email":"prestatair63@test.com","roles":"[\"ROLE_PRESTATAIRE\"]","password":"$2y$13$rSawQLO3AEIebzr3mBxt5OmBepnO5EzDs\/ooatB6yLQQR3m5JRoe.","adresse_num":"03","adresse_rue":"RUE PIRON","inscription":"2024-03-12 10:13:38","type_utilisateur":"prestataire","nb_essais_infructueux":null,"banni":null,"inscript_confirmee":"1","discr":"prestataire","is_verified":"1"},
+{"id":"63","adresse_cp_id":null,"adresse_province_id":null,"commune_id":null,"email":"presta63@test.com","roles":"[\"ROLE_PRESTATAIRE\"]","password":null,"adresse_num":null,"adresse_rue":null,"inscription":"2024-03-12 10:18:15","type_utilisateur":"prestataire","nb_essais_infructueux":null,"banni":null,"inscript_confirmee":null,"discr":"prestataire","is_verified":"1"}
+]
+}
+]

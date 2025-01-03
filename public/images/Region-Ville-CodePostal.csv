@@ -1,0 +1,661 @@
+region,codePostal,ville
+Namur,5300,Andenne
+Namur,5680,Doische
+Namur,5590,Ciney
+Luxembourg,6723,Habay
+Luxembourg,6851,Paliseul
+Brabant flamand,1970,Wezembeek-Oppem
+Liège,4263,Braives
+Liège,4610,Beyne-Heusay
+Liège,4190,Ferrières
+Liège,4800,Verviers
+Liège,4260,Braives
+Hainaut,7503,Tournai
+Hainaut,6534,Thuin
+Hainaut,7031,Mons
+Hainaut,7333,Saint-Ghislain
+Hainaut,6596,Momignies
+Hainaut,6463,Chimay
+Hainaut,6594,Momignies
+Hainaut,7030,Mons
+Brabant wallon,1330,Rixensart
+Brabant wallon,1476,Genappe
+Namur,5640,Mettet
+Namur,5575,Gedinne
+Luxembourg,6671,Gouvy
+Luxembourg,6698,Vielsalm
+Luxembourg,6832,Bouillon
+Luxembourg,6838,Bouillon
+Luxembourg,6922,Wellin
+Liège,4877,Olne
+Liège,4450,Juprelle
+Liège,4790,Burg-Reuland
+Liège,4650,Herve
+Liège,4100,Seraing
+Hainaut,7610,Rumes
+Hainaut,7131,Binche
+Hainaut,7522,Tournai
+Hainaut,6280,Gerpinnes
+Hainaut,7322,Bernissart
+Hainaut,7803,Ath
+Hainaut,6543,Lobbes
+Hainaut,7601,Péruwelz
+Hainaut,6591,Momignies
+Hainaut,6560,Erquelinnes
+Brabant wallon,1340,Ottignies-Louvain-la-Neuve
+Brabant wallon,1474,Genappe
+Namur,5560,Houyet
+Namur,5646,Mettet
+Namur,5020,Namur
+Namur,5573,Beauraing
+Namur,5100,Namur
+Luxembourg,6672,Gouvy
+Luxembourg,6747,Saint-Léger
+Luxembourg,6767,Rouvroy
+Luxembourg,6813,Chiny
+Luxembourg,6830,Bouillon
+Luxembourg,6833,Bouillon
+Luxembourg,6870,Saint-Hubert
+Brabant flamand,1640,Rhode-Saint-Genèse
+Flandre orientale,9600,Renaix
+Liège,4607,Dalhem
+Liège,4730,Raeren
+Liège,4180,Hamoir
+Liège,4351,Remicourt
+Liège,4560,Clavier
+Liège,4431,Ans
+Liège,4780,Saint-Vith
+Liège,4654,Herve
+Hainaut,7784,Comines-Warneton
+Hainaut,7624,Brunehaut
+Hainaut,7712,Mouscron
+Hainaut,7803,Ath
+Hainaut,7301,Boussu
+Hainaut,6592,Momignies
+Brabant wallon,1404,Nivelles
+Brabant wallon,1435,Mont-Saint-Guibert
+Namur,5621,Florennes
+Namur,5010,Namur
+Namur,5503,Dinant
+Namur,5543,Hastière
+Namur,5336,Assesse
+Luxembourg,6600,Bastogne
+Luxembourg,6921,Wellin
+Luxembourg,6941,Durbuy
+Luxembourg,6951,Nassogne
+Luxembourg,6960,Manhay
+Liège,4860,Pepinster
+Liège,4367,Crisnée
+Liège,4102,Seraing
+Liège,4160,Anthisnes
+Liège,4721,La Calamine
+Liège,4711,Lontzen
+Liège,4672,Blegny
+Liège,4890,Thimister-Clermont
+Liège,4042,Herstal
+Liège,4600,Visé
+Hainaut,6060,Charleroi
+Hainaut,6099,Fleurus
+Hainaut,7050,Jurbise
+Hainaut,7904,Leuze-en-Hainaut
+Brabant wallon,1300,Wavre
+Namur,5574,Beauraing
+Namur,5081,La Bruyère
+Luxembourg,6741,Étalle
+Luxembourg,6800,Libramont-Chevigny
+Luxembourg,6820,Florenville
+Luxembourg,6953,Nassogne
+Liège,4400,Flémalle
+Liège,4602,Visé
+Liège,4682,Oupeye
+Liège,4837,Baelen
+Liège,4340,Awans
+Liège,4601,Visé
+Liège,4550,Nandrin
+Liège,4000,Liège
+Liège,4770,Amblève
+Liège,4621,Fléron
+Hainaut,7020,Mons
+Hainaut,7300,Boussu
+Hainaut,7970,Belœil
+Hainaut,7110,La Louvière
+Hainaut,6531,Thuin
+Hainaut,7780,Comines-Warneton
+Hainaut,7531,Tournai
+Hainaut,7520,Tournai
+Brabant wallon,1320,Beauvechain
+Namur,5376,Havelange
+Namur,5641,Mettet
+Namur,5340,Gesves
+Luxembourg,6663,Houffalize
+Luxembourg,6666,Houffalize
+Luxembourg,6810,Chiny
+Luxembourg,6887,Herbeumont
+Liège,4432,Ans
+Liège,4120,Neupré
+Liège,4000,Liège
+Liège,4161,Anthisnes
+Liège,4783,Saint-Vith
+Liège,4032,Liège
+Liège,4257,Berloz
+Liège,4852,Plombières
+Liège,4470,Saint-Georges-sur-Meuse
+Hainaut,7801,Ath
+Hainaut,7850,Silly
+Hainaut,6150,Anderlues
+Hainaut,7331,Saint-Ghislain
+Hainaut,7620,Brunehaut
+Hainaut,7060,Soignies
+Hainaut,7000,Mons
+Hainaut,7870,Lens
+Hainaut,7533,Tournai
+Hainaut,7062,Soignies
+Hainaut,7711,Mouscron
+Hainaut,7190,Écaussinnes
+Hainaut,7532,Tournai
+Brabant wallon,1410,Waterloo
+Brabant wallon,1480,Tubize
+Namur,5333,Assesse
+Namur,5080,La Bruyère
+Limbourg,3790,Fourons
+Luxembourg,6661,Houffalize
+Luxembourg,6680,Sainte-Ode
+Luxembourg,6823,Florenville
+Luxembourg,6824,Florenville
+Luxembourg,6850,Paliseul
+Luxembourg,6852,Paliseul
+Liège,4784,Saint-Vith
+Liège,4980,Trois-Ponts
+Liège,4830,Limbourg
+Liège,4053,Chaudfontaine
+Liège,4720,La Calamine
+Hainaut,7510,Tournai
+Hainaut,7860,Lessines
+Hainaut,7782,Comines-Warneton
+Hainaut,6223,Fleurus
+Brabant wallon,1367,Ramillies
+Brabant wallon,1457,Walhain
+Brabant wallon,1461,Ittre
+Namur,5589,Rochefort
+Namur,5537,Anhée
+Namur,5651,Walcourt
+Luxembourg,6660,Houffalize
+Luxembourg,6742,Étalle
+Liège,4253,Geer
+Liège,4101,Seraing
+Liège,4960,Malmedy
+Liège,4791,Burg-Reuland
+Liège,4420,Saint-Nicolas
+Hainaut,6110,Montigny-le-Tilleul
+Hainaut,6210,Les Bons Villers
+Hainaut,6530,Thuin
+Hainaut,7643,Antoing
+Hainaut,6041,Charleroi
+Hainaut,6542,Lobbes
+Hainaut,7011,Mons
+Brabant wallon,1370,Jodoigne
+Brabant wallon,1401,Nivelles
+Brabant wallon,1430,Rebecq
+Namur,5363,Hamois
+Namur,5555,Bièvre
+Namur,5501,Dinant
+Namur,5024,Namur
+Namur,5031,Gembloux
+Namur,5377,Somme-Leuze
+Limbourg,3792,Fourons
+Luxembourg,6670,Gouvy
+Luxembourg,6980,La Roche-en-Ardenne
+Liège,4141,Sprimont
+Liège,4841,Welkenraedt
+Liège,4350,Remicourt
+Liège,4280,Hannut
+Liège,4623,Fléron
+Liège,4254,Geer
+Liège,4317,Faimes
+Liège,4218,Héron
+Hainaut,7160,Chapelle-lez-Herlaimont
+Hainaut,7760,Celles
+Hainaut,6061,Charleroi
+Hainaut,7134,Binche
+Hainaut,7941,Brugelette
+Hainaut,7940,Brugelette
+Hainaut,7021,Mons
+Hainaut,6441,Froidchapelle
+Hainaut,7621,Brunehaut
+Brabant wallon,1342,Ottignies-Louvain-la-Neuve
+Brabant wallon,1440,Braine-le-Château
+Brabant wallon,1460,Ittre
+Namur,5372,Havelange
+Namur,5544,Hastière
+Namur,5330,Assesse
+Namur,5521,Onhaye
+Liège,4590,Ouffet
+Liège,4650,Herve
+Liège,4121,Neupré
+Liège,4900,Spa
+Liège,4261,Braives
+Liège,4653,Herve
+Hainaut,7861,Lessines
+Hainaut,6044,Charleroi
+Hainaut,6511,Beaumont
+Hainaut,7642,Antoing
+Hainaut,6120,Ham-sur-Heure-Nalinnes
+Hainaut,7070,Le Rœulx
+Brabant wallon,1301,Wavre
+Brabant wallon,1470,Genappe
+Brabant wallon,1473,Genappe
+Namur,5502,Dinant
+Namur,5380,Fernelmont
+Namur,5563,Houyet
+Namur,5670,Viroinval
+Luxembourg,6686,Bertogne
+Luxembourg,6750,Musson
+Luxembourg,6760,Virton
+Luxembourg,6971,Tenneville
+Liège,4780,Saint-Vith
+Liège,4577,Modave
+Liège,4834,Limbourg
+Liège,4162,Anthisnes
+Liège,4990,Lierneux
+Liège,4050,Chaudfontaine
+Liège,4557,Tinlot
+Liège,4650,Herve
+Liège,4681,Oupeye
+Hainaut,6533,Thuin
+Hainaut,6221,Fleurus
+Hainaut,7880,Flobecq
+Hainaut,6593,Momignies
+Hainaut,7191,Écaussinnes
+Hainaut,6500,Beaumont
+Hainaut,6142,Fontaine-l'Évêque
+Hainaut,7862,Lessines
+Hainaut,7600,Péruwelz
+Hainaut,7504,Tournai
+Hainaut,6220,Fleurus
+Brabant wallon,1341,Ottignies-Louvain-la-Neuve
+Namur,5576,Beauraing
+Namur,5540,Hastière
+Namur,5362,Hamois
+Namur,5570,Beauraing
+Namur,5334,Assesse
+Luxembourg,6660,Houffalize
+Luxembourg,6790,Aubange
+Luxembourg,6940,Durbuy
+Brabant flamand,1950,Kraainem
+Liège,4620,Fléron
+Liège,4171,Comblain-au-Pont
+Liège,4041,Herstal
+Hainaut,7320,Bernissart
+Hainaut,7973,Belœil
+Hainaut,7100,La Louvière
+Hainaut,7012,Mons
+Hainaut,7380,Quiévrain
+Namur,5352,Ohey
+Namur,5022,Namur
+Namur,5542,Hastière
+Luxembourg,6662,Houffalize
+Luxembourg,6700,Arlon
+Luxembourg,6724,Habay
+Luxembourg,6856,Paliseul
+Luxembourg,6972,Tenneville
+Liège,4260,Braives
+Liège,4181,Hamoir
+Liège,4700,Eupen
+Liège,4347,Fexhe-le-Haut-Clocher
+Liège,4652,Herve
+Hainaut,7740,Pecq
+Hainaut,6200,Châtelet
+Hainaut,6030,Charleroi
+Hainaut,7618,Rumes
+Hainaut,7912,Frasnes-lez-Anvaing
+Hainaut,6590,Momignies
+Hainaut,6461,Chimay
+Brabant wallon,1332,Rixensart
+Brabant wallon,1402,Nivelles
+Namur,5620,Florennes
+Luxembourg,6681,Sainte-Ode
+Luxembourg,6717,Attert
+Luxembourg,6761,Virton
+Luxembourg,6840,Neufchâteau
+Liège,4670,Blegny
+Liège,4500,Huy
+Liège,4870,Olne
+Liège,4970,Stavelot
+Liège,4360,Oreye
+Hainaut,7512,Tournai
+Hainaut,6031,Charleroi
+Hainaut,7911,Frasnes-lez-Anvaing
+Hainaut,7548,Tournai
+Hainaut,6111,Montigny-le-Tilleul
+Hainaut,7502,Tournai
+Hainaut,6222,Fleurus
+Brabant wallon,1300,Wavre
+Brabant wallon,1348,Mont-Saint-Guibert
+Brabant wallon,1472,Genappe
+Namur,5310,Éghezée
+Namur,5032,Gembloux
+Namur,5361,Hamois
+Luxembourg,6781,Messancy
+Luxembourg,6830,Bouillon
+Liège,4520,Wanze
+Liège,4030,Liège
+Liège,4357,Donceel
+Liège,4845,Jalhay
+Liège,4051,Chaudfontaine
+Hainaut,7140,Morlanwelz
+Hainaut,7500,Tournai
+Hainaut,7370,Dour
+Hainaut,7750,Mont-de-l'Enclus
+Hainaut,6182,Courcelles
+Hainaut,7700,Mouscron
+Hainaut,7506,Tournai
+Hainaut,7170,Manage
+Namur,5140,Sombreffe
+Namur,5360,Hamois
+Luxembourg,6692,Vielsalm
+Luxembourg,6721,Habay
+Luxembourg,6780,Messancy
+Luxembourg,6997,Érezée
+Liège,4840,Welkenraedt
+Liège,4210,Burdinne
+Liège,4130,Esneux
+Liège,4480,Engis
+Hainaut,7823,Ath
+Hainaut,7804,Ath
+Hainaut,7330,Saint-Ghislain
+Hainaut,6140,Fontaine-l'Évêque
+Hainaut,7334,Saint-Ghislain
+Hainaut,7387,Honnelles
+Hainaut,7041,Quévy
+Hainaut,7830,Silly
+Brabant wallon,1360,Perwez
+Namur,5541,Hastière
+Namur,5644,Mettet
+Namur,5374,Havelange
+Namur,5504,Dinant
+Namur,5562,Houyet
+Limbourg,3717,Herstappe
+Luxembourg,6640,Vaux-sur-Sûre
+Luxembourg,6929,Daverdisse
+Brabant flamand,1630,Linkebeek
+Liège,4760,Bullange
+Liège,4802,Verviers
+Liège,4631,Soumagne
+Liège,4633,Soumagne
+Liège,4630,Soumagne
+Hainaut,6470,Sivry-Rance
+Hainaut,7971,Belœil
+Hainaut,7010,Mons
+Hainaut,7181,Seneffe
+Hainaut,7972,Belœil
+Hainaut,7641,Antoing
+Namur,5364,Hamois
+Namur,5520,Onhaye
+Luxembourg,6673,Gouvy
+Luxembourg,6820,Florenville
+Luxembourg,6834,Bouillon
+Luxembourg,6836,Bouillon
+Luxembourg,6920,Wellin
+Luxembourg,6924,Wellin
+Luxembourg,6986,La Roche-en-Ardenne
+Brabant flamand,1547,Biévène
+Liège,4761,Bullange
+Liège,4651,Herve
+Liège,4570,Marchin
+Liège,4950,Waimes
+Liège,4701,Eupen
+Hainaut,7513,Tournai
+Hainaut,7603,Péruwelz
+Hainaut,6462,Chimay
+Hainaut,7024,Mons
+Hainaut,7022,Mons
+Hainaut,7890,Ellezelles
+Hainaut,7608,Péruwelz
+Hainaut,7133,Binche
+Namur,5012,Namur
+Namur,5351,Ohey
+Namur,5561,Houyet
+Limbourg,3791,Fourons
+Luxembourg,6687,Bertogne
+Luxembourg,6688,Bertogne
+Luxembourg,6730,Tintigny
+Liège,4801,Verviers
+Liège,4287,Lincent
+Liège,4983,Trois-Ponts
+Liège,4730,Raeren
+Liège,4750,Butgenbach
+Liège,4342,Awans
+Liège,4671,Blegny
+Liège,4460,Grâce-Hollogne
+Liège,4820,Dison
+Hainaut,7622,Brunehaut
+Hainaut,6464,Chimay
+Hainaut,7811,Ath
+Hainaut,7534,Tournai
+Hainaut,6141,Fontaine-l'Évêque
+Hainaut,7543,Tournai
+Hainaut,7611,Rumes
+Hainaut,7943,Brugelette
+Hainaut,7090,Braine-le-Comte
+Hainaut,6230,Pont-à-Celles
+Hainaut,7063,Soignies
+Hainaut,6211,Les Bons Villers
+Brabant wallon,1325,Chaumont-Gistoux
+Brabant wallon,1421,Braine-l'Alleud
+Brabant wallon,1490,Court-Saint-Étienne
+Namur,5530,Yvoir
+Namur,5150,Floreffe
+Luxembourg,6812,Chiny
+Luxembourg,6890,Libin
+Luxembourg,6900,Marche-en-Famenne
+Luxembourg,6950,Nassogne
+Luxembourg,6990,Hotton
+Brabant flamand,1780,Wemmel
+Liège,4880,Aubel
+Liège,4031,Liège
+Liège,4800,Verviers
+Liège,4684,Oupeye
+Liège,4910,Theux
+Hainaut,7080,Frameries
+Hainaut,7332,Saint-Ghislain
+Hainaut,6460,Chimay
+Hainaut,7742,Pecq
+Hainaut,7141,Morlanwelz
+Hainaut,7061,Soignies
+Namur,5370,Havelange
+Namur,5350,Ohey
+Namur,5500,Dinant
+Namur,5020,Namur
+Namur,5572,Beauraing
+Namur,5550,Vresse-sur-Semois
+Namur,5522,Onhaye
+Namur,5002,Namur
+Namur,5524,Onhaye
+Limbourg,3793,Fourons
+Flandre occidentale,8957,Messines
+Luxembourg,6821,Florenville
+Luxembourg,6983,La Roche-en-Ardenne
+Liège,4690,Bassenge
+Liège,4731,Raeren
+Liège,4771,Amblève
+Hainaut,6532,Thuin
+Hainaut,7812,Ath
+Hainaut,6250,Aiseau-Presles
+Hainaut,6020,Charleroi
+Hainaut,7910,Frasnes-lez-Anvaing
+Hainaut,7906,Leuze-en-Hainaut
+Hainaut,7866,Lessines
+Brabant wallon,1390,Grez-Doiceau
+Brabant wallon,1471,Genappe
+Namur,5523,Onhaye
+Namur,5360,Hamois
+Namur,5190,Jemeppe-sur-Sambre
+Namur,5354,Ohey
+Namur,5630,Cerfontaine
+Namur,5004,Namur
+Namur,5170,Profondeville
+Luxembourg,6762,Virton
+Luxembourg,6792,Aubange
+Luxembourg,6853,Paliseul
+Luxembourg,6970,Tenneville
+Liège,4728,La Calamine
+Liège,4650,Herve
+Liège,4452,Juprelle
+Liège,4683,Oupeye
+Liège,4530,Villers-le-Bouillet
+Liège,4052,Chaudfontaine
+Liège,4451,Juprelle
+Hainaut,7340,Colfontaine
+Hainaut,6180,Courcelles
+Hainaut,7542,Tournai
+Hainaut,7501,Tournai
+Hainaut,6536,Thuin
+Hainaut,6440,Froidchapelle
+Hainaut,7538,Tournai
+Hainaut,6240,Farciennes
+Hainaut,7623,Brunehaut
+Hainaut,6030,Charleroi
+Hainaut,6075,Fleurus
+Hainaut,7730,Estaimpuis
+Hainaut,6183,Courcelles
+Hainaut,7536,Tournai
+Hainaut,6032,Charleroi
+Hainaut,7822,Ath
+Namur,5001,Namur
+Namur,5650,Walcourt
+Namur,5332,Assesse
+Namur,5000,Namur
+Namur,5580,Rochefort
+Luxembourg,6674,Gouvy
+Luxembourg,6720,Habay
+Luxembourg,6743,Étalle
+Luxembourg,6927,Tellin
+Luxembourg,6982,La Roche-en-Ardenne
+Liège,4140,Sprimont
+Liège,4458,Juprelle
+Liège,4680,Oupeye
+Hainaut,7942,Brugelette
+Hainaut,6001,Charleroi
+Hainaut,6010,Charleroi
+Hainaut,6238,Pont-à-Celles
+Hainaut,7321,Bernissart
+Hainaut,7810,Ath
+Hainaut,7951,Chièvres
+Hainaut,7950,Chièvres
+Brabant wallon,1450,Chastre
+Brabant wallon,1495,Villers-la-Ville
+Namur,5003,Namur
+Luxembourg,6630,Martelange
+Luxembourg,6637,Fauvillers
+Luxembourg,6690,Vielsalm
+Luxembourg,6831,Bouillon
+Brabant flamand,1620,Drogenbos
+Liège,4632,Soumagne
+Liège,4821,Dison
+Liège,4252,Geer
+Liège,4099,Awans
+Liège,4987,Stoumont
+Liège,4250,Geer
+Liège,4710,Lontzen
+Hainaut,7900,Leuze-en-Hainaut
+Hainaut,6530,Thuin
+Hainaut,7521,Tournai
+Hainaut,7743,Pecq
+Hainaut,6000,Charleroi
+Hainaut,6224,Fleurus
+Hainaut,7390,Quaregnon
+Brabant wallon,1380,Lasne
+Brabant wallon,1400,Nivelles
+Namur,5330,Assesse
+Namur,5070,Fosses-la-Ville
+Namur,5600,Philippeville
+Namur,5660,Couvin
+Limbourg,3798,Fourons
+Luxembourg,6690,Vielsalm
+Luxembourg,6704,Arlon
+Luxembourg,6782,Messancy
+Luxembourg,6791,Aubange
+Luxembourg,6952,Nassogne
+Liège,4540,Amay
+Liège,4122,Neupré
+Liège,4782,Saint-Vith
+Liège,4217,Héron
+Liège,4300,Waremme
+Hainaut,7511,Tournai
+Hainaut,7033,Mons
+Hainaut,7802,Ath
+Hainaut,7040,Quévy
+Hainaut,7864,Lessines
+Hainaut,6181,Courcelles
+Hainaut,6567,Merbes-le-Château
+Hainaut,7382,Quiévrain
+Hainaut,7350,Hensies
+Hainaut,7130,Binche
+Hainaut,7901,Leuze-en-Hainaut
+Hainaut,6210,Les Bons Villers
+Brabant wallon,1310,La Hulpe
+Brabant wallon,1315,Incourt
+Brabant wallon,1331,Rixensart
+Namur,5571,Beauraing
+Namur,5564,Houyet
+Flandre occidentale,8587,Espierres-Helchin
+Luxembourg,6706,Arlon
+Luxembourg,6740,Étalle
+Luxembourg,6920,Wellin
+Liège,4170,Comblain-au-Pont
+Liège,4861,Pepinster
+Liège,4850,Plombières
+Liège,4630,Soumagne
+Liège,4537,Verlaine
+Liège,4606,Dalhem
+Liège,4831,Limbourg
+Liège,4219,Wasseiges
+Liège,4608,Dalhem
+Liège,4453,Juprelle
+Hainaut,7130,Binche
+Hainaut,7120,Estinnes
+Hainaut,7540,Tournai
+Hainaut,7604,Péruwelz
+Hainaut,7530,Tournai
+Hainaut,7602,Péruwelz
+Hainaut,7180,Seneffe
+Hainaut,6043,Charleroi
+Hainaut,7903,Leuze-en-Hainaut
+Brabant wallon,1350,Orp-Jauche
+Brabant wallon,1357,Hélécine
+Namur,5520,Onhaye
+Namur,5030,Gembloux
+Namur,5021,Namur
+Limbourg,3790,Fourons
+Luxembourg,6811,Chiny
+Luxembourg,6860,Léglise
+Luxembourg,6880,Bertrix
+Luxembourg,6984,La Roche-en-Ardenne
+Luxembourg,6987,Rendeux
+Liège,4163,Anthisnes
+Liège,4851,Plombières
+Liège,4020,Liège
+Liège,4920,Aywaille
+Hainaut,7034,Mons
+Hainaut,7800,Ath
+Hainaut,6540,Lobbes
+Hainaut,7032,Mons
+Hainaut,6042,Charleroi
+Hainaut,6040,Charleroi
+Hainaut,7783,Comines-Warneton
+Brabant wallon,1348,Ottignies-Louvain-la-Neuve
+Namur,5560,Houyet
+Namur,5060,Sambreville
+Namur,5570,Beauraing
+Namur,5101,Namur
+Namur,5353,Ohey
+Luxembourg,6769,Meix-devant-Virton
+Liège,4624,Fléron
+Liège,4040,Herstal
+Liège,4430,Ans
+Hainaut,7863,Lessines
+Hainaut,7640,Antoing
+Hainaut,7781,Comines-Warneton
+Brabant wallon,1420,Braine-l'Alleud
+Brabant wallon,1428,Braine-l'Alleud
+Brabant wallon,1470,Genappe

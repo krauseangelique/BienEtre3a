@@ -1,0 +1,18 @@
+/*
+assets\styles\app_home.css
+Styles spécifiques à la page Home (accueil) du site
+
+les valeurs des variables sont à retrouver dans le fichier app.css
+
+*/
+
+.home h1 {
+    color: var(--main-color);
+    size: 115%;
+    background-color: bisque;
+}
+
+.home-content h1 {
+    padding-top: 2rem;
+    margin-top: 2rem;
+}

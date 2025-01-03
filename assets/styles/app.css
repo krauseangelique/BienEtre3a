@@ -1,3 +1,344 @@
-body {
-    background-color: skyblue;
+/**
+*   assets\styles\app.css
+* fichier de base du site avec les variables, les borders,
+les polices,
+* les médiaqueries et tous les styles généraux
+* Le site est développé en MOBILE FIRST
+
+*/
+/* --- VARIABLES ---  https: //www.shecodes.io/palettes/178 */
+:root {
+    --main-color: hsl(0, 15%, 26%);
+    --top-color: hsl(0, 65%, 59%);
+    --contrast-color: hsl(55, 89%, 72%);
+    --button-element: hsl(25, 79%, 66%);
+    --element-color: hsl(0, 15%, 56%);
+    --add-color: hsl(74, 69%, 47%);
 }
+
+.element-color {
+    background-color: var(--element-color);
+    color: var(--main-color);
+}
+
+/* --- BORDURES --- */
+.green {
+    border: 1px solid green;
+}
+
+.blue {
+    border: 1px solid blue;
+}
+
+.red {
+    border: 1px solid red;
+}
+
+.yellow-orange {
+    border: 1px solid #ff7b00;
+}
+
+.mauve {
+    border: 4px solid magenta;
+}
+
+.brown {
+    border: 2px solid brown;
+}
+
+.violet {
+    border: 3px solid violet;
+}
+
+/* --- @font-face --- */
+@font-face {
+    font-family: 'Open Sans Regular';
+    font-style: normal;
+    font-weight: 400;
+    src: url('chrome-extension://gkkdmjjodidppndkbkhhknakbeflbomf/fonts/open_sans/open-sans-v18-latin-regular.woff');
+}
+
+@font-face {
+    font-family: 'Open Sans Bold';
+    font-style: normal;
+    font-weight: 700;
+    src: url('chrome-extension://gkkdmjjodidppndkbkhhknakbeflbomf/fonts/open_sans/OpenSans-Bold.woff');
+}
+
+@font-face {
+    font-family: 'Open Sans ExtraBold';
+    font-style: normal;
+    font-weight: 800;
+    src: url('chrome-extension://gkkdmjjodidppndkbkhhknakbeflbomf/fonts/open_sans/open-sans-v18-latin-800.woff');
+}
+
+/* --- STYLES GENERAUX --- */
+*,
+*::before,
+*::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    /* Specifies a size adjustment for displaying text content in mobile browsers. */
+    -webkit-text-size-adjust: 100%;
+}
+
+body {
+    /* background-color: skyblue; */
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Open Sans', 'Helvetica Neue', Verdana, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    background-color: var(--main-color);
+    color: var(--element-color);
+
+    margin: 0;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+span a {
+    color: var(--top-color);
+    text-decoration: none;
+}
+
+
+/******* HEADER ou BANDEAU *******/
+.header {
+    max-height: 30vh;
+    padding: 1rem 0;
+    margin-bottom: 1rem;
+}
+
+.header h1 span {
+    display: none;
+}
+
+
+
+.logo-content {
+    display: flex;
+    margin-left: 1rem;
+
+}
+
+.logo-content img {
+    width: 25%;
+    padding-top: 0.2rem;
+}
+
+/******* NAVIGATION  ********/
+nav {
+    position: fixed;
+    display: flex;
+    bottom: 0;
+    width: 100%;
+    z-index: 10;
+    background-color: hsl(3, 86%, 64%);
+    color: white;
+    height: 12vh;
+    /* 25vh */
+
+    padding: 1rem 0;
+}
+
+nav ul {
+    display: flex;
+    gap: 1rem;
+    justify-content: space-around;
+    margin: 0 auto;
+    max-width: 575px;
+    border: 1px solid rgb(215, 177, 173);
+    border-radius: 5px;
+
+    padding: 0 1rem;
+}
+
+nav ul li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: .5rem;
+    font-size: 0.6rem;
+
+
+    padding: .8rem 0;
+}
+
+.navigation li {
+    list-style-type: none;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: wheat;
+    text-align: center;
+}
+
+.navigation a img {
+    width: 69%;
+    height: auto;
+
+}
+
+
+/* color: hsl(0, 15%, 26%)
+} */
+
+/* .iconHome::after, .iconApropos::after, .iconContact::after {
+    font-size: 0.7rem;
+    text-align: center;
+}
+.iconHome::after {
+    content: 'Home';
+}
+.iconApropos::after {
+    content: 'A propos';
+}
+.iconContact::after {
+    content: 'Contact';
+} */
+
+@media only screen and (min-width: 576px) {
+    .logo-content {
+        display: flex;
+
+        margin: 1rem 0 0 1rem;
+    }
+
+    .logo-content img {
+        width: 27%;
+    }
+
+    nav {
+        position: sticky;
+        top: 0;
+        background-color: var(--element-color);
+        z-index: 0;
+        color: #ecf0f1;
+        display: block;
+        height: 25vh;
+
+
+
+    }
+
+    nav ul li {
+        font-size: 0.9rem;
+    }
+
+
+}
+
+@media only screen and (min-width: 768px) {
+
+    .logo-content img {
+        width: 50%;
+        padding-top: 0.1rem;
+    }
+
+
+    nav {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .flex-item-left {
+        flex: 20%;
+    }
+
+    .flex-item-right {
+        flex: 80%;
+    }
+
+    nav ul li {
+        flex-direction: row;
+    }
+
+    .identification {
+        padding: 2rem;
+
+    }
+
+    .identification a img {
+        width: 40%;
+        height: auto;
+        padding-top: 0.4rem;
+    }
+
+    /******* FOOTER ou PIED DE PAGE *******/
+
+    footer {
+        display: flex;
+        justify-content: space-between;
+        height: 10vh;
+        position: sticky;
+        bottom: 0;
+        padding: 1rem 0;
+
+    }
+
+    footer p {
+        margin-top: 0.35rem;
+    }
+
+    footer p a, footer nav li a {
+        text-decoration: none;
+        color: hsl(192, 15%, 94%);
+    }
+
+    footer nav {
+
+        position: sticky;
+        bottom: 0;
+        display: flex;
+        justify-content: space-between;
+        width: 60%;
+
+        height: 6vh;
+        padding: 0;
+    }
+
+    footer nav ul {
+        border: none;
+        justify-content: space-between;
+    }
+}
+
+@media only screen and (min-width: 996px) {
+    .logo-content img {
+        padding-top: 0.5rem;
+        width: 37%;
+    }
+}
+
+
+/******* IDENTIFICATION *******/
+
+/******* SLIDER*******/
+.slider {
+    padding: 1rem 0;
+    display: flex;
+    align-items: center;
+    max-height: 25vh;
+
+}
+
+.slider {
+    img {
+        padding: 0.4rem;
+        background-size: cover;
+        max-width: 20%;
+
+    }
+}
+
+/******* CATEGORIES DE SERVICES *******/
+/******* RECHERCHE *******/
+/******* ZONE LIBRE ou CONTENT *******/
