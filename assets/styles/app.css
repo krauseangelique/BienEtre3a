@@ -9,11 +9,11 @@ les polices,
 /* --- VARIABLES ---  https: //www.shecodes.io/palettes/178 */
 :root {
     --main-color: hsl(0, 15%, 26%);
-    --top-color: hsl(0, 65%, 59%);
+    --top-color: rgb(217, 82, 82);
     --contrast-color: hsl(55, 89%, 72%);
     --button-element: hsl(25, 79%, 66%);
     --element-color: hsl(0, 15%, 56%);
-    --add-color: hsl(74, 69%, 47%);
+    --add-color: rgb(164, 203, 37);
 }
 
 .element-color {
@@ -139,7 +139,8 @@ nav {
     bottom: 0;
     width: 100%;
     z-index: 10;
-    background-color: hsl(3, 86%, 64%);
+    /* background-color: hsl(3, 86%, 64%); */
+    background-color: var(--top-color);
     color: white;
     height: 12vh;
     /* 25vh */
