@@ -12,13 +12,15 @@ class HomeController extends AbstractController
     #[Route('/', name: 'app_home')]
     public function index(): Response
     {
-        $name = "Angelique";
+        // $name = "Angelique";
 
         return $this->render('home/index.html.twig', [
 
             // Tableau associatif les variables twig première partie pourront être retournées
-            'controller_name' => 'HomeController',
-            'My_name' => $name
+            // 'controller_name' => 'HomeController',
+            // 'My_name' => $name,
+            // mise en relief de la page ACTIVE
+            'page' => 'app_home'
         ]);
     }
 }

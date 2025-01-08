@@ -36,7 +36,13 @@
 	</head>
 	<body>
 
-		{% block body %}BODY
+		{% block body %}
+			{% if page %}la page
+				{{page}}
+				existe
+			{% else %}
+				la page n'existe pas
+			{% endif %}
 		{% endblock %}
 
 		{% block header %}
@@ -63,82 +69,57 @@
 						<nav class="navigation flex-item-right ">
 
 							<ul class="identification ">
-								<li class="iconApropos m-1 p-1">
-									<a href="{{path('app_propos')}}">Inscription<img src=" {{asset('images/icones/inscription.png')}}" alt="lien vers la page Home"></a>
+								<li class="iconApropos m-1 p-1 ">
+									<a href="{{path('app_propos')}}">Inscription<img src=" {{asset('images/icones/inscription.png')}}" alt="lien vers la page Inscription"></a>
 
 								</li>
-								<li class="iconContact  p-1">
-									<a href="{{path('app_contact')}}">Mon&nbsp;Compte<img src=" {{asset('images/icones/identification_card.png')}}" alt="lien vers la page Home"></a>
+								<li class="iconContact  p-1 ">
+									<a href="{{path('app_contact')}}">Mon&nbsp;Compte<img src=" {{asset('images/icones/identification_card.png')}}" alt="lien vers la page Mon Compte"></a>
 								</li>
 							</ul>
 
 							<ul class="menu ">
-								<li class="iconHome  p-1">
+								<li class="iconHome  p-1 {{(page is same as ('app_home') ? 'isactive' : '')}} ">
 									<a href="{{path('app_home')}}">Home
 										<img src=" {{asset('images/icones/menu_liste.png')}}" alt="lien vers la page Home"></a>
 								</li>
-								<li class="iconApropos  p-1">
-									<a href="{{path('app_propos')}}">A&nbsp;propos<img src=" {{asset('images/icones/menu_liste.png')}}" alt="lien vers la page Home"></a>
-
+								<li class="iconApropos  p-1 {{(page is same as ('app_propos') ? 'isactive' : '')}}">
+									<a href="{{path('app_propos')}}">A&nbsp;propos<img src=" {{asset('images/icones/menu_liste.png')}}" alt="lien vers la page A propos"></a>
 								</li>
-								<li class="iconContact  p-1">
-									<a href="{{path('app_contact')}}">Contact<img src=" {{asset('images/icones/menu_liste.png')}}" alt="lien vers la page Home"></a>
-
+								<li class="iconContact  p-1 {{(page is same as ('app_contact') ? 'isactive' : '')}}">
+									<a href="{{path('app_contact')}}">Contact<img src=" {{asset('images/icones/menu_liste.png')}}" alt="lien vers la page Contact"></a>
 								</li>
 							</ul>
 						</nav>
 					{% endblock %}
+				</body>
+			</html>
+		</body>
+	</html>
+</div></header>{% endblock %}{% block slider %}<div class="container-fluid element-color slider ">
 
-				</div>
-			</header>
+<img src=" {{asset('images/slider/teapot.jpg')}} " alt="teapot">
+<img src=" {{asset('images/slider/black-swallowtail.jpg')}} " alt="teapot">
+<img src=" {{asset('images/slider/equilibre-pixabay.jpg')}} " alt="teapot">
+<img src=" {{asset('images/slider/stock-petales-roses.jpg')}} " alt="teapot">
+<img src=" {{asset('images/slider/cannelle-devostock.webp')}} " alt="teapot"></div>{% endblock %}{% block content %}{% endblock %}{% block footer %}<footer class="container-fluid p-flex element-color footer">
+<p>
+	<a href="{{path('app_home')}}">Annuaire Bien-Être</a>
+</p>
 
-		{% endblock %}
-
-		{% block slider %}
-			<div class="container-fluid element-color slider ">
-
-				<img src=" {{asset('images/slider/teapot.jpg')}} " alt="teapot">
-				<img src=" {{asset('images/slider/black-swallowtail.jpg')}} " alt="teapot">
-				<img src=" {{asset('images/slider/equilibre-pixabay.jpg')}} " alt="teapot">
-				<img src=" {{asset('images/slider/stock-petales-roses.jpg')}} " alt="teapot">
-				<img src=" {{asset('images/slider/cannelle-devostock.webp')}} " alt="teapot">
-
-			</div>
-		{% endblock %}
-
-		{% block content %}{% endblock %}
-
-		{% block footer %}
-
-			<footer class="container-fluid p-flex element-color footer">
-				<p>
-					<a href="{{path('app_home')}}">Annuaire Bien-Être</a>
-				</p>
-
-				<nav>
-					<ul>
-						<li class="pe-2">
-							<a href="#">Newsletter</a>
-						</li>
-						<li>
-							<a href="{{path('app_home')}}">Home</a>
-						</li>
-						<li>
-							<a href="{{path('app_propos')}}">A&nbsp;propos</a>
-						</li>
-						<li>
-							<a href="{{path('app_contact')}}">Contact</a>
-						</li>
-					</ul>
-				</nav>
-
-
-			</footer>
-
-		{% endblock %}
-
-
-		<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
-		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
-	</body>
-</html>
+<nav>
+	<ul>
+		<li class="pe-2">
+			<a href="#">Newsletter</a>
+		</li>
+		<li>
+			<a href="{{path('app_home')}}">Home</a>
+		</li>
+		<li>
+			<a href="{{path('app_propos')}}">A&nbsp;propos</a>
+		</li>
+		<li>
+			<a href="{{path('app_contact')}}">Contact</a>
+		</li>
+	</ul>
+</nav></footer>{% endblock %}<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script><script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script></body></html>

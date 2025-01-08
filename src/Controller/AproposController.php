@@ -11,6 +11,10 @@ class AproposController extends AbstractController
     #[Route('/apropos', name: 'app_propos')]
     public function index(): Response
     {
-        return $this->render('pages/apropos.html.twig', []);
+        return $this->render('pages/apropos.html.twig', [
+
+            // mise en relief de la page ACTIVE
+            'page' => 'app_propos'
+        ]);
     }
 }
